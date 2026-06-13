@@ -1,0 +1,13 @@
+{
+  "name": "go-gijang-editable-clone",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node server.mjs",
+    "export:applicants": "node scripts/create-applicants-xlsx.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
