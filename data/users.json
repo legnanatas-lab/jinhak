@@ -1,0 +1,32 @@
+[
+  {
+    "id": "admin",
+    "name": "관리자",
+    "role": "admin",
+    "password": "0000"
+  },
+  {
+    "id": "andong3",
+    "name": "김재형소장",
+    "role": "consultant",
+    "password": "0000"
+  },
+  {
+    "id": "andong100",
+    "name": "일광컨설턴트",
+    "role": "consultant",
+    "password": "0000"
+  },
+  {
+    "id": "adnong1",
+    "name": "정명환소장",
+    "role": "consultant",
+    "password": "0000"
+  },
+  {
+    "id": "andong2",
+    "name": "최인선소장",
+    "role": "consultant",
+    "password": "0000"
+  }
+]
