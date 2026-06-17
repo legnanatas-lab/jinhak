@@ -83,7 +83,7 @@ set value = jsonb_set(value, '{siteName}', to_jsonb('가온길 에듀-가온길 
 where key = 'site';
 
 -- 중요:
--- 1. Supabase Dashboard > Authentication > Users에서 admin@gijang.local 사용자를 만들고 비밀번호를 0000으로 설정하세요.
+-- 1. Supabase Dashboard > Authentication > Users에서 admin@gijang.local 사용자를 만들고 비밀번호를 000000으로 설정하세요.
 -- 2. 만든 사용자의 UUID를 복사한 뒤 아래 INSERT의 '관리자_AUTH_USER_UUID'를 교체하고 실행하세요.
 --
 -- insert into public.staff_profiles (auth_user_id, login_id, name, role, permissions)
