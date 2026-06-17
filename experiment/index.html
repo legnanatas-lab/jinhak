@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>가온길 에듀 | 실험형 과학·AI 교육</title>
+  <meta name="description" content="실험형 과학·AI·STEAM·메이커 교육 프로그램을 학교 현장에 맞춰 운영하는 가온길 에듀 공식 홈페이지" />
+  <meta property="og:title" content="가온길 에듀" />
+  <meta property="og:description" content="과학실험, 생명과학, AI, STEAM, 메이커 수업을 실사형 이미지와 함께 소개합니다." />
+  <meta property="og:image" content="assets/images/banners/hero-lab.webp" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/images/banners/hero-lab.webp" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <a class="skip" href="#app">본문 바로가기</a>
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-wrap">
+      <a class="brand" href="#/home" aria-label="홈으로 이동">
+        <span class="brand-mark" id="brandMark">G</span>
+        <span class="brand-text" id="brandText">가온길 에듀</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="메뉴 열기" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav class="main-nav" id="mainNav" aria-label="주요 메뉴"></nav>
+    </div>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <footer class="site-footer" id="siteFooter">
+    <div class="container footer-grid">
+      <section class="footer-brand">
+        <h3 id="footerName">가온길 에듀</h3>
+        <p id="footerDescription">학생의 가능성을 열어주는 교육 파트너</p>
+        <div class="footer-social" id="footerBadges"></div>
+      </section>
+      <section>
+        <strong>문의</strong>
+        <p id="footerContact"></p>
+      </section>
+      <section>
+        <strong>바로가기</strong>
+        <p id="footerLinks"></p>
+      </section>
+      <section class="admin-login-panel">
+        <strong>관리자 로그인</strong>
+        <p class="mini">홈 화면 제일 아래에서 바로 로그인할 수 있습니다.</p>
+        <form id="footerAdminLogin" class="footer-login-form">
+          <input name="id" placeholder="아이디" autocomplete="username" value="admin" />
+          <input name="pw" type="password" placeholder="비밀번호" autocomplete="current-password" value="000000" />
+          <button type="submit">로그인</button>
+        </form>
+        <p class="mini"><a href="admin.html">관리자 페이지 직접 열기</a></p>
+      </section>
+    </div>
+    <div class="container copyright" id="copyright"></div>
+  </footer>
+
+  <button class="top-btn" id="topBtn" aria-label="맨 위로">↑</button>
+  <div id="popupLayer" class="popup-layer" aria-live="polite"></div>
+
+  <script src="assets/data/default-data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
